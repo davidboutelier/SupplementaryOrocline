@@ -1,0 +1,192 @@
+\documentclass[11pt]{article}
+
+\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{lineno}
+
+
+
+\usepackage{times}
+
+
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\@combinedblfloats{\box\@outputbox}{\unvbox\@outputbox}{}{%
+  \errmessage{\noexpand\@combinedblfloats could not be patched}%
+}%
+\makeatother
+
+
+
+
+
+
+\renewenvironment{abstract}
+  {{\bfseries\noindent{\abstractname}\par\nobreak}\footnotesize}
+  {\bigskip}
+
+\renewenvironment{quote}
+  {\begin{tabular}{|p{13cm}}}
+  {\end{tabular}}
+
+\titlespacing{\section}{0pt}{*3}{*1}
+\titlespacing{\subsection}{0pt}{*2}{*0.5}
+\titlespacing{\subsubsection}{0pt}{*1.5}{0pt}
+
+
+\usepackage{authblk}
+
+
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{tabulary}
+\usepackage{booktabs,array,multirow}
+\usepackage{amsfonts,amsmath,amssymb}
+\providecommand\citet{\cite}
+\providecommand\citep{\cite}
+\providecommand\citealt{\cite}
+% You can conditionalize code for latexml or normal latex using this.
+\newif\iflatexml\latexmlfalse
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}%
+
+\AtBeginDocument{\DeclareGraphicsExtensions{.pdf,.PDF,.eps,.EPS,.png,.PNG,.tif,.TIF,.jpg,.JPG,.jpeg,.JPEG}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\newcommand{\msun}{\,\mathrm{M}_\odot} 
+
+\begin{document}
+
+\title{Buckling an orocline: Supplementary material}
+
+\author[1]{David Boutelier}%
+\author[2]{Laurence Gagnon}
+\author[3]{Stephen Johnston}
+\author[4]{Alexander Cruden}
+
+\affil[1]{University of Newcastle}%
+\affil[2]{University of Victoria}%
+\affil[3]{University of Alberta}%
+\affil[4]{Monash University}%
+
+\date{}
+\vspace{-1em}
+
+\begingroup
+\let\center\flushleft
+\let\endcenter\endflushleft
+\maketitle
+\endgroup
+
+
+
+
+
+\selectlanguage{english}
+\begin{abstract}
+The scaling and experimental procedure are detailed. Experiments are detailed.
+\end{abstract}%
+
+
+\section*{Introduction}
+Plate tectonic processes are characterized by very large spatial and temporal scales. Consequently, geological data often provide partial insights into their mechanics, and geodynamic modeling, using either experimental or numerical techniques, is routinely employed to better understand their development in space and time. The experimental modeling technique is particularly efficient to investigate three-dimensional phenomena (Davy and Cobbold, 1991; Bellahsen et al., 2003; Funiciello et al., 2003; Schellart et al., 2003; Cruden et al., 2006; Luth et al., 2010). However, in multiple experimental models, the rheological stratification of the lithosphere is simplified and the strength variations induced by the temperature gradient through the lithosphere are simulated using various analogue materials with different physical properties (Davy and Cobbold, 1991; Schellart et al., 2003; Cruden et al., 2006; Luth et al., 2010). A drawback of this simplification is that the mechanical properties are retained throughout the entire experiment regardless of temperature variations associated with vertical displacement.
+
+Experimental modeling with temperature-sensitive analogue materials allows incorporating these temperature variations and their mechanical consequences (Turner, 1973; Jacoby, 1976; Jacoby and Schmeling, 1982; Kincaid and Olson, 1987; Chemenda et al., 2000; Rossetti et al., 2000, 2001, 2002; Wosnitza et al., 2001; Boutelier et al., 2002, 2003, 2004; Boutelier and Chemenda, 2008; Lujan et al., 2010). A conductive temperature gradient imposed in the model lithosphere controls the rheological stratification prior to deformation (Boutelier et al., 2002, 2003, 2004). During deformation, heat is naturally advected and diffused so that temperature and strength change with time in various parts of the model lithosphere (e.g. in the subducted lithosphere). However, due to the complexity of the thermo-mechanical analogue modeling technique, most thermo-mechanical models used a two dimensional approximation.
+
+\section*{Methods}
+\subsection*{General setup}
+\subsection*{Scaling}
+\subsection*{Analogue materials}
+
+\section*{Particle Imaging Velocimetry}
+\subsection*{Principles}
+\subsection*{Cumulative displacements}
+
+\section*{Experimental results}
+
+
+Nunc a aliquet sem, eget aliquet purus. Vestibulum ac placerat mauris. Proin sed dolor ac justo semper iaculis. Donec varius, nibh sit amet finibus tristique, sapien ante interdum odio, et pretium sapien libero nec massa. In hac habitasse platea dictumst. Donec vel augue ac sapien imperdiet pretium. Maecenas gravida risus id ultricies dignissim. Maecenas Eq.~\ref{eqn:drag} gravida felis quis dolor faucibus, sed maximus lorem tristique
+\begin{equation}
+\label{eqn:drag}
+\int_a^bu\frac{d^2v}{dx^2}\,dx
+=\left.u\frac{dv}{dx}\right|_a^b
+-\int_a^b\frac{du}{dx}\frac{dv}{dx}\,dx.
+\end{equation}\selectlanguage{english}
+\begin{figure}[h!]
+\begin{center}
+%\includegraphics[width=1.00\columnwidth]{figures/1.5-Kipp1/1.5-Kipp1}
+\caption{{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas
+auctor molestie. In hac habitasse platea dictumst. \(\tilde f(\omega)=\frac{1}{2\pi}\)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas
+auctor molestie. In hac habitasse platea dictumst. Cras egestas auctor
+molestie.
+{\label{125409}}%
+}}
+\end{center}
+\end{figure}
+
+\section*{Section}
+\label{igw}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas auctor molestie. In hac habitasse platea dictumst. Duis turpis tellus, scelerisque sit amet lectus ut, ultricies cursus enim. Integer fringilla a elit at fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue consequat consectetur. Duis ac mi ultricies, mollis ipsum nec, porta est. Aenean augue neque, varius vitae dapibus ac, Fig.~\ref{125409} dictum ut nisl et Table \ref{tab:table}\selectlanguage{english}
+\begin{table*}
+\caption{{\label{tab:table}Different quantities and qualities of ~$T_{\rm shell}$}}
+\begin{center}
+\begin{tabular}{ccccccccc}
+\hline\
+\textbf{Heading}& $r_c$ (km) & $T_{\rm shell}$ (s) & $t_{\rm waves}$ (s) & $\mathcal{M}$ & $\omega_{\rm c}$ (rad/s) & $P_{\rm min}$ (s) & $P_{\rm min,Fe}$ (s) & $P_{\rm min,NS}$ (s) \\
+\hline
+Row & $ 1.6 \times 10^7 $ & $ 4 \times 10^{13}$ & $ 2 \times 10^{5}$ & $0.06$ & $ 3 \times 10^{-6}$ & $ 2 \times 10^{5}$ & $ 40$ & $ 2 \times 10^{-3} $  \\
+\hline
+Row & $ 9.7 \times 10^3$ & $ 3 \times 10^8$ & $ 10^{6}$ & $0.002$ & $ 4 \times 10^{-3}$ & $ 2 \times 10^{3}$ & $ 50$ & $  2.5 \times 10^{-3} $ \\
+\hline
+Row & $ 3.6 \times 10^3$ & $ 4 \times 10^6$ & $ 10^{5}$ & $0.004$ & $ 2 \times 10^{-2}$ & - & - & - \\
+\hline
+Row & $ 1.7 \times 10^3$ & $ 7 \times 10^3$ &  $ 2 \times 10^{3}$ & $0.02$ & $ 4 \times 10^{-1}$ & - & - & - \\
+\hline
+\end{tabular}
+\end{center}
+\end{table*}
+
+
+
+\section*{Section}
+Mauris nec massa leo. Mauris ac diam auctor nisl imperdiet porta. Sed sit amet neque eget nisi dictum placerat. Duis sit amet pellentesque odio. Cras scelerisque sem a consectetur vehicula. Aliquam interdum luctus fringilla. Nunc sollicitudin, lorem in semper viverra, \citet{Goldreich_1990}, dui nisi sodales sem, ut condimentum erat leo eget arcu \citep{Goldreich_1990,Kumar_1994}. Donec pharetra aliquam metus, non pulvinar tellus interdum a. Mauris a ante pharetra, mollis enim in, eleifend erat. Pellentesque suscipit risus massa, non vestibulum libero euismod feugiat. In hac habitasse platea dictumst. Maecenas rutrum lobortis lobortis. Vestibulum convallis porttitor sem ac ultricies. Mauris volutpat fringilla nisl blandit semper. Proin nec iaculis sem. Aenean neque ipsum, pretium a faucibus non, tincidunt ut sapien.
+
+
+\section*{Non-LaTeX Section}
+
+{\label{583331}}
+
+Integer in metus aliquam, cursus dolor eu, \textbf{maximus arcu}.
+Integer vel finibus odio. Maecenas sit amet rhoncus purus. Ut molestie
+augue vel magna rutrum fermentum. Curabitur eleifend, nisl non rutrum
+auctor, diam sapien rutrum purus, quis dictum erat leo in leo.
+Vestibulum semper, velit non malesuada sagittis, tortor dolor
+sollicitudin enim, sed ullamcorper tellus diam vitae est. Nullam auctor
+dui ac ultricies porta. Aliquam erat volutpat. Maecenas finibus ultrices
+felis eu congue. Integer pulvinar, elit sed mollis aliquet, magna turpis
+molestie nisi, sed auctor justo massa vitae felis. Vivamus dui justo,
+auctor non magna eget, varius dapibus augue.~
+
+\selectlanguage{english}
+\clearpage
+\bibliographystyle{unsrt}
+\bibliography{bibliography/converted_to_latex.bib%
+}
+
+\end{document}
+
