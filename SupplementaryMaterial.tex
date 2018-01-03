@@ -109,6 +109,36 @@ Experimental modeling with temperature-sensitive analogue materials allows incor
 \section*{Methods}
 \subsection*{General setup}
 \subsection*{Scaling}
+
+The Buckingham or $\pi$-theorem provides a method for computing sets of dimensionless parameters from given variables, even if the form of the equation remains unknown. However, the choice of dimensionless parameters is not unique; Buckingham's theorem only provides a way of generating sets of dimensionless parameters and does not indicate the most physically meaningful.
+
+Two systems for which these parameters coincide are called similar (they differ only in scale); they are equivalent for the purposes of the equation, and the experimentalist who wants to determine the form of the equation can choose the most convenient one. Most importantly, Buckingham's theorem describes the relation between the number of variables and fundamental dimensions.
+
+In mathematical terms, if we have a physically meaningful equation such as
+\begin{equation}
+f ( q_1 , q_2 ,\ldots , q_n ) = 0
+\end{equation}
+where the $q_i$ are the $n$ physical variables, and they are expressed in terms of $k$ independent physical units, then the above equation can be restated as
+\begin{equation}
+F( \pi_1 , \pi_2 ,\ldots , \pi_p ) = 0
+\end{equation}
+where the $\pi_i$ are dimensionless parameters constructed from the $q_i$ by $p = n - k$ dimensionless equations of the form
+\begin{equation}
+\pi_i = q_{1}^{a_1} q_{2}^{a_2} \ldots q_{n}^{a_n}
+\end{equation}
+where the exponents $a_i$ are rational numbers.
+
+For example consider the advection-diffusion of heat in a moving medium. the parameter to consider are length, $l$, velocity, $u$, time, $t$, temperature, $T$, and thermal diffusivity, $\kappa$. We have 5 parameters but only 3 independent dimensions since the dimension of $u$ can be expressed as a combination of the dimensions of $l$ and the dimension of $\kappa$ can be expressed as a combination of the dimensions $l$ and $t$. It is therefore only required to find $5-3$ dimensionless ratios of the 5 parameters. The ratio of the rates of advection and diffusion yields the Peclet number
+\begin{equation}
+P_e = \frac{u l}{\kappa}
+\end{equation}
+and time can be included in the dimensionless ratio:
+
+\begin{equation}
+Const= \frac{u t}{l}
+\end{equation}
+
+
 \subsection*{Analogue materials}
 
 \section*{Particle Imaging Velocimetry}
